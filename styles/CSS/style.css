@@ -1,0 +1,178 @@
+body {
+  font-size: 15px;
+  background-color: hsl(257, 40%, 49%);
+}
+body .header-section {
+  height: auto;
+  display: grid;
+  grid-template-rows: 100px 265px 330px 90px;
+  background-color: hsl(257, 40%, 49%);
+  background-image: url("../../images/bg-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 0 30px;
+}
+body .header-section .logo {
+  align-self: center;
+  width: 130px;
+}
+body .header-section .mockup {
+  width: 95%;
+  justify-self: center;
+  align-self: center;
+}
+body .header-section .text-section {
+  text-align: center;
+  align-self: center;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+body .header-section .text-section .header {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: white;
+  margin-bottom: 15px;
+}
+body .header-section .text-section .desc {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.734);
+  margin-bottom: 20px;
+  padding: 0 15px;
+}
+body .header-section .text-section .button {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 400;
+  background-color: white;
+  color: hsl(257, 40%, 49%);
+  border: none;
+  border-radius: 30px;
+  padding: 10px 40px;
+  width: 60%;
+  box-shadow: 1px 3px 5px 0px rgba(0, 0, 0, 0.5);
+}
+body .header-section .social-media-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+body .header-section .social-media-container .icon-container {
+  width: 30px;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 50%;
+  position: relative;
+}
+body .header-section .social-media-container .icon-container i {
+  font-size: 1rem;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+body footer {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+body footer .attribution a {
+  color: hsl(300, 69%, 71%);
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 768px) {
+  body .header-section .mockup {
+    width: auto;
+    height: 100%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  body .header-section {
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../../images/bg-desktop.svg");
+    margin: auto;
+    grid-template-rows: 20% 65% 15%;
+    grid-template-columns: 55% 45%;
+    grid-template-areas: "logo logo" "mockup text" "social social";
+  }
+  body .header-section .logo {
+    grid-area: logo;
+    width: 200px;
+    margin-left: 50px;
+  }
+  body .header-section .mockup {
+    grid-area: mockup;
+    justify-self: start;
+    margin-left: 50px;
+    width: auto;
+    height: 90%;
+  }
+  body .header-section .text-section {
+    grid-area: text;
+    text-align: start;
+    width: 430px;
+  }
+  body .header-section .text-section .header {
+    font-size: 2rem;
+  }
+  body .header-section .text-section .desc {
+    padding: 0;
+  }
+  body .header-section .text-section .button {
+    width: 40%;
+  }
+  body .header-section .social-media-container {
+    grid-area: social;
+    justify-self: end;
+    margin-right: 50px;
+  }
+  body .header-section .social-media-container .icon-container {
+    width: 40px;
+    height: 40px;
+  }
+  body .header-section .social-media-container .icon-container i {
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  body .header-section {
+    grid-template-rows: 20% 70% 10%;
+    -moz-column-gap: 0px;
+         column-gap: 0px;
+  }
+  body .header-section .logo {
+    margin-left: 70px;
+  }
+  body .header-section .mockup {
+    margin-left: 70px;
+  }
+  body .header-section .text-section {
+    width: 500px;
+    margin: 50px 0px 0 50px;
+    align-self: self-start;
+  }
+  body .header-section .text-section .header {
+    font-size: 2.4rem;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  body .header-section .text-section .desc {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+  }
+  body .header-section .text-section .button {
+    font-size: 1.3rem;
+    padding: 15px;
+  }
+  body .header-section .social-media-container {
+    margin-right: 70px;
+    align-items: start;
+  }
+}/*# sourceMappingURL=style.css.map */
