@@ -65,6 +65,18 @@ body {
         -webkit-box-shadow: 1px 3px 5px 0px rgba(0, 0, 0, 0.5);
         -moz-box-shadow: 1px 3px 5px 0px rgba(0, 0, 0, 0.5);
         box-shadow: 1px 3px 5px 0px rgba(0, 0, 0, 0.5);
+
+        &:hover {
+          cursor: pointer;
+          background-color: $soft-magenta;
+          color: white;
+        }
+
+        &:active {
+          cursor: pointer;
+          background-color: $soft-magenta;
+          color: white;
+        }
       }
     }
 
@@ -79,15 +91,35 @@ body {
         height: 30px;
         border: 1px solid white;
         border-radius: 50%;
-        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &:active {
+          cursor: pointer;
+          color: $soft-magenta;
+          border-color: currentColor;
+        }
+
+        &:hover {
+          cursor: pointer;
+          color: $soft-magenta;
+          border-color: currentColor;
+        }
 
         & i {
           font-size: 1rem;
           color: white;
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
+
+          &:active {
+            cursor: pointer;
+            color: $soft-magenta;
+          }
+
+          &:hover {
+            cursor: pointer;
+            color: $soft-magenta;
+          }
         }
       }
     }

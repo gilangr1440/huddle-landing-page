@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution URL here](https://your-solution-url.com)
-- Live Site URL: [live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL here](https://www.frontendmentor.io/solutions/huddle-landing-page-BdJ7bQqrY-)
+- Live Site URL: [live site URL here](https://gilangr1440.github.io/huddle-landing-page/)
 
 ## My process
 
@@ -45,4 +45,4 @@ Users should be able to:
 
 - LinkedIn - [Gilang Ramadhan](https://www.linkedin.com/in/gilangr1440/)
 - Frontend Mentor - [@gilangr1440](https://www.frontendmentor.io/profile/gilangr1440)
-- Twitter - [@gilangr1440](https://www.instagram.com/gilangr1440)
+- Instagram - [@gilangr1440](https://www.instagram.com/gilangr1440)

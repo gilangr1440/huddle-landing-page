@@ -55,6 +55,16 @@ body .header-section .text-section .button {
   width: 60%;
   box-shadow: 1px 3px 5px 0px rgba(0, 0, 0, 0.5);
 }
+body .header-section .text-section .button:hover {
+  cursor: pointer;
+  background-color: hsl(300, 69%, 71%);
+  color: white;
+}
+body .header-section .text-section .button:active {
+  cursor: pointer;
+  background-color: hsl(300, 69%, 71%);
+  color: white;
+}
 body .header-section .social-media-container {
   display: flex;
   justify-content: center;
@@ -66,15 +76,31 @@ body .header-section .social-media-container .icon-container {
   height: 30px;
   border: 1px solid white;
   border-radius: 50%;
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .header-section .social-media-container .icon-container:active {
+  cursor: pointer;
+  color: hsl(300, 69%, 71%);
+  border-color: currentColor;
+}
+body .header-section .social-media-container .icon-container:hover {
+  cursor: pointer;
+  color: hsl(300, 69%, 71%);
+  border-color: currentColor;
 }
 body .header-section .social-media-container .icon-container i {
   font-size: 1rem;
   color: white;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+}
+body .header-section .social-media-container .icon-container i:active {
+  cursor: pointer;
+  color: hsl(300, 69%, 71%);
+}
+body .header-section .social-media-container .icon-container i:hover {
+  cursor: pointer;
+  color: hsl(300, 69%, 71%);
 }
 body footer {
   font-family: "Open Sans", sans-serif;
